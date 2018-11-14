@@ -7,7 +7,7 @@ with open("emotion-data.json") as f:
 d = {}
 
 for song in data:
-	d[song] = data[song]["anger"]
+	d[song] = data[song]["sadness"]
 
 sorted_d = sorted(d.items(), key=operator.itemgetter(1), reverse=True)
 
