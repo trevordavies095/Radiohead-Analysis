@@ -8,4 +8,4 @@ with open("songs.txt", "r") as file:
 		if line.strip() != "":
 			artist.add_song(api.search_song(line.strip(), artist.name))
 
-artist.save_lyrics()
+artist.save_lyrics(skip_duplicates=False)
