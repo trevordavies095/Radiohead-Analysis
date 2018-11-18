@@ -3,7 +3,7 @@ import json
 import re
 from pprint import pprint
 
-indicoio.config.api_key = '71728932e753b4b3585420fa66c3841c'
+indicoio.config.api_key = ''
 
 emotion_data = {}
 

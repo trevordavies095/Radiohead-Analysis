@@ -1,5 +1,5 @@
 import lyricsgenius as genius
-api = genius.Genius("0fcFpSvk1P4PeWrOztzBz_X38K9YMqivXQ-Ta-QBejzjfZQYDExpL_b4VtHxpJ6Z")
+api = genius.Genius("")
 
 artist = api.search_artist('Radiohead', max_songs=0)
 
